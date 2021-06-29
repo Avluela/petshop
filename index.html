@@ -4,72 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Front Cat & Dog</title>
     <link rel="stylesheet" href="css/styles.css">
+    <title>Front Cat & Dog</title>
 </head>
 <body>
     <header>
-        <section>
-
+        <div class="top-header">
             <a href="#">Grandes ofertas en comederos</a>
-            
-            <div class="float-right" >
-                <select name="lang" id="lang">
+            <div class="select">
+                <select name="lang">
                     <option value="es">Español</option>
                     <option value="en">Inglés</option>
                     <option value="fr">Francés</option>
                 </select>
     
-                <select name="moneda" id="moneda">
+                <select name="moneda">
                     <option value="ar">ARG$</option>
                     <option value="us">US$</option>
                     <option value="eu">Euro</option>
                 </select>
             </div>
+        </div>
             
-   
-        </section>
-            
-        <nav>
+        <nav class="nav-header">
+            <a href="#"><img src="img/logo_cat_dog.png" alt="Logo de cat&dog"></a>
             <ul>
-                <li><a href="#"><img src="img/logo_cat_dog.png" alt="Logo de cat&dog"></a></li>
-                <div class="float-right">
-                    <li><a href="#"><img src="img/pawprint-little.png">Categorías</a></li>
-                    <li><a href="#"><img src="img/pawprint-little.png">Pets</a></li>
-                    <li><a href="#"><img src="img/pawprint-little.png">Nosotros</a></li>
-                    <li><a href="#"><img src="img/pawprint-little.png">Contáctanos</a></li>
-                </div>
+               <li><a href="#"><img src="img/pawprint-little.png">Categorías</a></li>
+                <li><a href="#"><img src="img/pawprint-little.png">Pets</a></li>
+                <li><a href="#"><img src="img/pawprint-little.png">Nosotros</a></li>
+                <li><a href="#"><img src="img/pawprint-little.png">Contáctanos</a></li>
             </ul>     
         </nav>
     </header>
     <main>
-        <section id="banner">
-            <div class="float-right">
-                <h2>¡Es un placer tenerte aquí!</h2>
-                <p>¡Comederos en descuento!</p>
+        <section class="banner">
+            <div class="banner-container">
+                <div class="caja">
+                    <h2>¡Es un placer tenerte aquí!</h2>
+                </div>
+                <h5>¡Comederos en descuento!</h5>
                 <button class="btn btn-comedero">COMEDEROS</button>
             </div>
         </section>
-        <section id='title'>
+        <section class='title'>
             <img src="img/pawprint.png" alt="huella de patita de perro">
             <h1>Productos Destacados</h1>
             <nav>
                 <ul>
                     <li><a href="#">Comederos</a></li>
+                    <li class="divider-list">-</li>
                     <li><a href="#">Accesorios</a></li>
+                    <li class="divider-list">-</li>
                     <li><a href="#">Comida</a></li>
                 </ul>
             </nav>
         </section>
 
         <!-------------- listado de Productos ----------------------->
-        <section>
+        <section class="productos">
             <ul>
                 <li>
                     <img src="img/churrasquito.png" alt="tres churrasquitos de juguete">
                     <p>Juguete Churrasquito</p>
                     <p class="red">$150</p>
-
                 </li>
                 <li>
                     <img src="img/comedero.png" alt="comedero de aluminio">
@@ -86,53 +83,63 @@
         <!---------------------- fin de listado de productos ------------------>
 
         <!------------------------- Contáctanos ------------------------------->
-        <section id="contact">
+        <section class="contact">
             <h3>Contáctanos</h3>
             
             <form action="#">
                 <input type="text" name="nombre-apellido" id="nombre-apellido" placeholder="Nombre y apellido"><br><br>
                 <input type="text" name="email" id="email" placeholder="Ingresá tu correo electrónico"><br><br>
                 <input type="text" name="telefono" id="telefono" placeholder="Teléfono"><br><br>
-                <button type="reset" class="btn-form btn-reset">Resetear</button>
-                <button type="submit" class="btn-form">Enviar</button>
+                <div class="contact-buttons">
+                    <button type="reset" class="btn-form btn-reset">Resetear</button>
+                    <button type="submit" class="btn-form">Enviar</button>
+                </div>
             </form>
         </section>
         <!-------------------- fin de Contáctanos ------------------------------>
         
-        <section id="suscribe">
-            <img src="img/enviar-correo 1.png">
-            <p>Suscríbete para más novedades</p>
-            <form action="#" class="aling-right">
+        <section class="suscribe">
+            <div>
+                <img src="img/enviar-correo 1.png">
+                <h4>Suscríbete para más novedades</h4>
+            </div>
+            <form action="#">
                 <input type="text" name="email" id="email" placeholder="Ingresá tu correo electrónico">
-                <button type="submit" class="btn-form btn-suscribe">Suscribirme</button>
+                <button type="submit" class="btn-suscribe">Suscribirme</button>
             </form>
         </section>
     </main>
 
     <footer>
-        <section id='footer'>
+        <section class='footer'>
             <ul>
                 <li>
                     <img src="img/localidad.png">
-                    <h4>Localidad</h4>
-                    <p>Calle - provincia</p>
+                    <div>
+                        <h4>Localidad</h4>
+                        <p>Calle - provincia</p>
+                    </div>
                 </li>
                 <li>
                     <img src="img/telefono.png">
-                    <h4>Teléfono</h4>
-                    <p>Número de teléfono</p>
+                    <div>
+                        <h4>Teléfono</h4>
+                        <p>Número de teléfono</p>
+                    </div>
                 </li>
                 <li>
                     <img src="img/correo.png">
-                    <h4>Correo Electrónico</h4>
-                    <p>Dirección de correo</p>
+                    <div>
+                        <h4>Correo Electrónico</h4>
+                        <p>Dirección de correo</p>
+                    </div>
                 </li>
             </ul>
                 
-            <img src="img/logo_cat_dog.png" alt="Logo de cat&dog">
+            <img src="img/logo_white.png" alt="Logo de cat&dog">
         </section>
 
-        <section id="pie">
+        <section class="pie">
             <p>Todos los derechos reservados Front End</p>
         </section>
 
