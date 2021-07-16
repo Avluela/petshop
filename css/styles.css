@@ -1,0 +1,421 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #3C2313;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+footer{
+    background-color: #3C2313;
+    display: flex;
+    flex-direction: column;
+    padding: 2% 0% 0%;
+}
+
+h1{
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 5px 0px 20px 0px;  
+}
+
+h2{
+    font-size: 1.3rem;
+    font-weight: 400;    
+}
+
+h3{
+    font-size: 2.7rem;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+
+h4{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+h5{
+    font-size: 1rem;
+    font-weight: 400;  
+}
+
+ul{
+    list-style: none;
+}
+
+p{
+    font-weight: 500;
+}
+
+input{
+    width: 80%;
+    align-items: center;
+    background-color: #3C2313;
+    color: #FFFFFF;
+    font-size: 0.6rem;
+    font-weight: 400;
+    padding: 3%;
+    border-radius: 10px;
+    border: transparent;
+    margin: 8px;
+}
+
+a{
+    text-decoration: transparent;
+    color: #ffffff;
+}
+
+select{
+    border: transparent;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+option{
+    background-color: #222222;
+}
+
+.top-header{
+    visibility: hidden;
+    position: absolute;
+    background-color: #222222;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0% 5%;
+}
+
+.top-header a{
+    font-size: 0.8rem;
+}
+
+.contact{
+    width: 100%;
+}
+
+.nav-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 10%;
+    background-color: #F0A83E;
+}
+
+.nav-header ul{
+    visibility: hidden;
+    position: absolute;
+}
+
+#nav-select{
+    color: #ffffff;
+}
+
+.banner{
+    background-image: url(../img/bowl-and-pet-daities-on-green-background.png);
+    background-size: cover;
+    width: 100%;
+    height: 409px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.caja{
+    background-color: #FFFFFF;
+    padding: 10px 40px;
+    border-radius: 5px;
+    margin-bottom: 3%;
+}
+
+.btn-comedero{
+    background-color: #F0A83E;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 5% 7%;
+    border: transparent;
+    margin: 3% 6%;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 5% 0%;    
+}
+
+.title a{
+    color: #666666;
+}
+
+.title li{
+    display: inline;
+}
+
+.divider-list{
+    padding: 0px 10px;
+}
+
+.red{
+    color: #F0A83E;
+}
+
+.contact-button{
+    display: flex;
+    justify-content: space-around;
+    margin: 7% 0%;
+}
+
+.btn{
+    color: #FFFFFF;
+    text-align: center;
+    border: transparent;
+}
+
+.btn-form{
+    width: 48%;
+    background-color: #F0A83E;
+    border-radius: 25px;
+    font-size: 1rem;
+    padding: 3% 0%;
+}
+
+.btn-reset{
+    background-color: #8A8787;
+}
+
+.suscribe{
+    background-color: #F0A83E;
+    padding: 0.5% 1%;
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.suscribe div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.suscribe input{
+    background-color: #FFFFFF;
+    color:#A0A0A0;
+    font-size: 0.6rem;
+    width: 65%;
+}
+
+.suscribe form{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 2% ;
+    align-items: center;
+}
+
+.suscribe img{
+    margin-right: 10px;
+}
+
+.btn-suscribe{
+    background-color: #3C2313;
+    border-radius: 15px;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 2% 2%;
+    margin-left: 2%;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer li{
+    display: flex;
+    flex-direction: row;
+    margin: 10% 0%;
+}
+
+.footer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.footer p{
+    color: #8A8787;
+    font-size: 0.8rem;
+}
+
+.pie{
+    background-color: #222222;
+}
+
+.pie p{
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+@media (min-width: 481px){
+    h1{
+        font-size: 3rem;;  
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+
+    h3{
+        font-size: 2rem;
+    }
+    
+    input{
+        width: 30%;
+        padding: 15px;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer{
+        padding: 0%;
+    }
+
+    .top-header{
+        visibility: visible;
+        position: relative;
+    }
+
+    .nav-header{
+        padding: 1.5% 5%;
+    }
+
+    .nav-header ul{
+        visibility: visible;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .nav-header li{
+        padding-left: 20px;
+    }
+
+    #nav-select{
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .banner{
+        justify-content: flex-end;
+        padding-right: 2%;
+    }
+
+    .banner-container{
+        align-items: center;
+    }
+    
+    .caja{
+        padding: 10px;
+    }
+
+    .btn-comedero{
+        font-size: 0.8rem;
+        padding: 4% 6%;
+    }
+
+    .title{
+        margin: 2% 0%;    
+    }
+
+    .productos{
+        width: 80%;
+        margin: 5% 0%;
+    }
+
+    .productos ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .contact-button{
+        width: 200px;
+        margin: 3% 0% 7%;
+    }
+
+    .suscribe{
+        padding: 1% 3%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .suscribe input{
+        width: 271px;
+    }
+
+    .suscribe form{
+        padding: 0% ;
+        width: auto;
+    }
+
+    .btn-suscribe{
+        font-size: 0.6rem;
+        padding: 15px 10px;
+    }
+
+    .footer{
+        align-items: flex-start;
+        padding: 0% 10%;
+        position: relative;
+    }
+
+    #logo{
+        position: absolute;
+        align-self: flex-end;
+        top: 45%;
+    }
+
+    .pie{
+        padding: 0.3% 0%;
+    }
+
+}
